@@ -1,3 +1,5 @@
 # Calculadora João Vitor
 
-Primeiro desafio que resolvo, usando conteúdo que aprendi sobre FlexBox, Grid na estilização. E integrando com JavaScript para apresentar os cálculos.
+Primeiro projeto que desenvolvo sozinho utilizando o que aprendi. 
+
+Desenvolvi uma calculadora em HTML, CSS e JavaScript, em que utilizo FlexBox e Grid para estilização, e integro com JavaScript para apresentar os cálculos.
