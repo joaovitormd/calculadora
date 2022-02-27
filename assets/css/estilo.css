@@ -1,0 +1,88 @@
+.app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(45deg, black 0%, crimson 100%)
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    height: 5vw;
+    width: 100%;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.container_titulo{
+    text-align: center;
+    color: #fdfdfd;
+}
+
+.calculadora{
+    background: #161616;
+    border-radius: 10px;
+    width: auto;
+}
+
+.conteudo{
+    display: grid;
+    grid-gap: 0.3rem;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem 1rem;
+    background: #161616;
+    font-size: 2rem;
+    border-radius: 10px;
+    padding: 1rem;
+    
+}
+
+.conteudo_caixa{
+    margin: 1rem 0;
+}
+
+.conteudo__num{
+    color: #fdfdfd;
+    background: #302e2e57;
+    padding: 1rem;
+    height: 100px;
+    width: 100px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 3px 3px 3px 0 gray;
+    font-size: 3rem;
+    border: none;
+    
+}
+
+.conteudo__num:hover{
+    background: black;
+}
+
+.conteudo__num:active{
+    background: #302e2e57;
+}
+
+.resultado{
+    width: 100%;
+    text-align: end;
+    font-size: 1.75rem;
+    
+}
+
+.resultado__caixa{
+    background: #fdfdfd;
+    border-radius: 5px;
+    height: 100px;
+    text-align: end;
+    font-size: 3rem;
+   
+}
+
+.rodape{
+    background: #161616;
+}
+
+
+
